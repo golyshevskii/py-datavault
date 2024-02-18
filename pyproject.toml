@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py-datavault"
+version = "0.1.0"
+description = "DataVault 2.0"
+authors = ["Slava Golyshevskii <sgolyshevskii@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.2.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
